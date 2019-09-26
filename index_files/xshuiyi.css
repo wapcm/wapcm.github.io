@@ -1,0 +1,115 @@
+/*base*/
+body,ul,li,form,img,p,h1,h2,h3{ margin:0; padding:0; border:0;}
+body,td,option,input, textarea, select,option { font:12px/18px simsun;}
+input, textarea, select, option,button { font-size:12px;}
+ul,li { list-style:none; }
+div,p { margin:0;line-height:1.5em;}
+table { border-collapse:collapse; }
+td { vertical-align:top; padding:0;}
+p { padding:3px 0; }
+a { color:#004199; text-decoration:none }
+a:hover { color:#780ab7; text-decoration:underline; }
+img { margin-right:2px;}
+em { color:#C9C9C9; font-style:normal;}
+.cl{ clear:both; }
+
+/*index*/
+.header_index{ width:100%; background:url(../images/xueshu/xueshubg1.gif) repeat-x top;}
+#logo_index{ float:left; margin:8px 0 0 10px; display:inline;}
+#logo_name{ float:right; margin:10px 10px 0 0; display:inline;}
+.header_index ul{ clear:both; padding:2px 0 2px 5px;}
+.header_index ul.nav{ margin:10px 0 0 0; text-align:center;}
+.header_index ul li{ line-height:22px; padding:0 4px;}
+.header_index ul li a{ font-size:14px; padding:0 4px;}
+.header_index ul li a.menuon{ color:#780ab7;}
+
+.search{ margin:5px 0; text-align:center;}
+.search .ip1{ width: 40%; margin-right: 5px; _height:21px; _line-height:21px; height: 18px; line-height: 18px;}
+.search .ip2{ color: #000; cursor: pointer; width: 80px;  font-size: 12px;cursor: pointer; }
+
+.tit{ width:100%; height:24px; background-color:#F4F4F4; margin:3px 0; text-align:left; border-bottom:1px solid #D8D8D8;border-top:1px solid #D8D8D8;}
+.tit span{ float:left; margin:0 0 0 3px; line-height:24px; font-size:14px; }
+.tit img{ margin:2px 0 0 5px; float:left;}
+.tit a{ margin:0 10px; font-size:14px; line-height:24px;}
+
+.tit2{ width:100%; height:24px;background-color:#F4F4F4; margin:3px 0; text-align:left;border-bottom:1px solid #D8D8D8;border-top:1px solid #D8D8D8;}
+.tit2 span{ float:left; margin:0 0 0 3px; line-height:24px; font-size:14px; }
+.tit2 img{ margin:2px 0 0 5px; float:left;}
+.tit2 a{ margin:0 10px; font-size:14px; line-height:24px;color:#333;}
+
+
+
+.imgbox{ width:100%; text-align:center;}
+.imgbox img{ margin:10px 0 0 5px;}
+
+.list{ width:100%; text-align:left; padding:3px 0;}
+.list li{ padding-left:13px; line-height:24px; font-size:14px; color:#333; }
+.list li.li_on,.list li.li_on a{ color:#333;}
+.list li a{ font-size:14px; color:#333;}
+.list li span{ font-size:18px; font-weight:bold; padding:0 2px 0 0;}
+.list li span.listtype{ font-size:14px; color:#333; font-weight:normal;}
+
+.top{ width:100%; padding:10px 0; clear:both; text-align:center;}
+
+/*con*/
+.header_con{ background-color: #F3F3F3; line-height: 23px;  font-size: 14px; height: 23px; }
+#logo_con{ float:left; margin:5px 0 0 10px; display:inline;}
+#header_connav{ float:right; display:inline; color:#004199; margin-right: 10px; margin-bottom: 0; margin-left: 0; line-height: 23px; }
+#header_connav a{ font-size:14px; margin:0 5px; color:#004199;}
+.header_con .xuename{ float:left; font-size:14px; color:#000; line-height: 23px; height: 23px; margin-right: 0; margin-bottom: 0; margin-left: 5px; width: 80px; }
+
+
+.warp_con{ margin-top: 0px; margin-right: 0; margin-bottom: 0; margin-left: 0; }
+.location{ border-bottom:#CCC dashed 1px;padding-left:5px; text-align:left; color:#255473; background-color:#FFF0E1; line-height: 24px; margin: 0; height: 24px; border-bottom: 1px solid #FFF0E1; border-top: 2px solid #C76305; }
+.location a{ font-size:14px; color:#CC6600; margin-top: 0; margin-bottom: 0; }
+
+
+.nav_con{}
+.nav_con{ clear:both; padding:2px 0 2px 5px;}
+.nav_con li{ float:left; line-height:22px; padding:0 4px;}
+.nav_con li a{ font-size:14px;}
+.nav_con li a.menuon{ color:#780ab7;}
+
+.listnav{ margin:0 10px; padding:5px 0 0 0; font-size:14px; text-align:center;}
+.listnav a{ margin:0 5px; font-size:14px;}
+
+.date{ margin:2px 10px; font-size:14px; text-align:left; clear:both;}
+.line{ width:100%; height:1px; line-height:1px; border-bottom:#ececec solid 1px; clear:both;}
+.page{ margin:2px 10px; font-size:14px; text-align:left; clear:both;}
+.page a{ margin:0 4px;}
+.page input{ width:20px; height:16px; line-height:16px; margin:0 3px;}
+.page button{width:25px; height:20px; background:url(../images/xueshu/searchbg.gif) repeat-x; border:#1e568f solid 1px; cursor:pointer; color:#fff; font-weight:bold; text-align:center;}
+
+.searchtit{ margin:3px 10px; font-size:14px; color:#6b6b6b; text-align:left;}
+.searchlist{ width:100%; text-align:left; padding:3px 0;}
+.searchlist li{ padding-left:8px; line-height:24px; font-size:14px; color:#004199; border-bottom:#CCC dashed 1px;}
+.searchlist li.li_on,.searchlist li.li_on a{ color:#780ab7;}
+.searchlist li a{ font-size:14px; }
+.searchlist li span{ font-size:12px; color:#6b6b6b;}
+
+.txt{ width:100%; margin:5px 0; font-size:14px;}
+.txt h1{ font-size:14px; font-weight:bold; color:#d60a0a; text-align:center; padding:2px 5px;}
+.txt1{ padding:0 5px;}
+.txt1 a{ text-decoration:underline;}
+.txt .txt_jj{ padding:0 5px;}
+.txt .txt_zw{ padding:0 5px; font-size:14px; color:#000;}
+.zfl{ padding:2px 5px; text-align:left; font-size:14px;}
+.zfl a{ margin:0 5px 0 0; font-size:14px;}
+
+.topnav{ width:100%; height:24px; line-height:24px; background:#e9e9e9 url(../images/xueshu/xueshutitbg.gif) repeat-x; text-align:left;}
+.topnav span{ padding-left:8px;}
+
+.navindex{ width:100%; background-color:#CB6707;text-align:center;}
+.navindex a{ font-size:14px; color:#fff; line-height:22px; margin:0 3px;}
+.navinside{ width:100%; background-color:#CB6707;  text-align:center;}/*height:67px;*/
+.navinside a{ font-size:14px; color:#fff; line-height:22px; margin:0 3px;}
+
+.title { width:100%; font-size:14px; line-height:24px; text-align:center;}
+
+.ys { width:100%; height:44px; border:1px solid #D6E2E6; border-left:none; border-right:none; padding:5px 0px; font-size:14px; color:#333;}
+.ys a { color:#003399;}
+
+
+#footer { height: 49px; margin-top: 15px; text-align: center;font-size:14px;  line-height: 24px; padding-top: 5px;  background-color: #EAF5F7; border-top-width: 1px; border-top-style: solid; border-top-color: #CCC; }
+#footer a { color: #3d5999; text-decoration: none; }
+#footer a:hover { text-decoration: underline; }
